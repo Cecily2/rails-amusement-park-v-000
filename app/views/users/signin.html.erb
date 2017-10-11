@@ -1,0 +1,10 @@
+<%= form_tag "/signin" do %>
+
+  Name: <br>
+  <input type="text" name="user[name]"><br><br>
+
+  Password: <br>
+  <input type="text" name="user[password]">
+
+  <%= submit_tag "Sign In" %>
+<% end %>
